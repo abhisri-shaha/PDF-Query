@@ -2,6 +2,7 @@ streamlit
 langchain
 langchain-community
 cassio 
-huggingface_hub 
+huggingface_hub
+sentence_transformers
 PyPDF2 
 python-dotenv
