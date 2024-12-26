@@ -1,5 +1,6 @@
 streamlit 
-langchain 
+langchain
+langchain_community
 cassio 
 huggingface_hub 
 PyPDF2 
