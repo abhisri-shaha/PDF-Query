@@ -78,8 +78,3 @@ if uploaded_file is not None:
         # Get answer from the vector store
         answer = astra_vector_index.query(query_text, llm=llm).strip()
         st.write(f"Answer: {answer}")
-
-        # Show the top relevant documents
-        st.write("Top relevant documents:")
-        for doc, score in astra_vector_store.similarity_search_with_score(query_text, k=4):
-            st.write(f"[{score:.4f}] {doc.page_content[:84]}...")
